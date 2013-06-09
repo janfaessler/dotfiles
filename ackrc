@@ -1,0 +1,24 @@
+#++++ scala ++++#
+--type-add=scala=.sbt
+
+#++++ plain text ++++#
+--type-set=txt=.txt
+--type-set=conf=.properties,.conf
+
+#++++ java ++++#
+--type-set=java=.java
+
+#++++ C/C++ ++++#
+--type-set=c=.c,.cpp,.ino,.pde,.h
+
+# ignore stuff
+--ignore-dir=target
+--ignore-dir=tmp
+--ignore-dir=doc
+
+
+--smart-case
+--sort-files
+--color
+--follow
+--group
